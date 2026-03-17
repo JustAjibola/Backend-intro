@@ -1,0 +1,28 @@
+{
+  "name": "backend-intro",
+  "version": "1.0.0",
+  "description": "a tutorial to backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustAjibola/Backend-intro.git"
+  },
+  "author": "Ajibola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustAjibola/Backend-intro/issues"
+  },
+  "homepage": "https://github.com/JustAjibola/Backend-intro#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.6",
+    "nodemon": "^3.1.11"
+  }
+}
