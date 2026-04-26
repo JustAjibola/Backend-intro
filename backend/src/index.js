@@ -23,5 +23,7 @@ const startServer = async () => {
         console.error(`Failed to start the server: ${error.message}`);
         
     }
+
+    console.log("Mongo URI loaded:", process.env.MONGODB_URI);
 }
 startServer();
